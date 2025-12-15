@@ -1,0 +1,5 @@
+streamlit
+Pandas
+sqlite3
+datetime
+
