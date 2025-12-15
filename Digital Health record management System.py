@@ -371,7 +371,7 @@ def main():
     st.sidebar.write(f"Logged in as: {user['username']} ({user['role']})")
     if st.sidebar.button("Logout"):
         st.session_state.user = None
-        st.experimental_retun()
+        st.experimental_rerun()
 
     menu = [
         "Home",
